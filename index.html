@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="United Fast Food & BBQ — pizza, burgers, BBQ, biryani, broast, rolls and more in Liaquatabad, Karachi.">
+<title>United Fast Food & BBQ | Karachi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-wrap" aria-label="Main navigation">
+    <a class="logo" href="#home" aria-label="United Fast Food & BBQ home">
+      <span class="logo-mark">U</span>
+      <span class="logo-text">UNITED<small>FAST FOOD & BBQ</small></span>
+    </a>
+    <button id="hamb" class="hamb" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div id="nav" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#popular">Popular</a>
+      <a href="#menu">Menu</a>
+      <a href="#deals">Deals</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Location</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">FAST FOOD • PIZZA • BBQ • KARACHI</p>
+    <h1>Life is all about <i>taste.</i></h1>
+    <p class="hero-copy">Pizza, burgers, BBQ, biryani, broast, rolls, sandwiches and more in Liaquatabad, Karachi.</p>
+    <div class="hero-actions">
+      <a class="btn gold" href="#menu">View Menu</a>
+      <a class="btn outline" href="#contact">Order / Contact</a>
+    </div>
+    <div class="trust">
+      <strong>4.3 ★</strong><span>462 reviews</span><span class="dot"></span><strong>Dine-in</strong><strong>Takeout</strong><strong>Delivery</strong>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="section-label">01 / ABOUT US</div>
+  <div class="about-grid">
+    <div>
+      <p class="eyebrow dark-eyebrow">UNITED FAST FOOD & BBQ</p>
+      <h2>A menu full of <i>favourites.</i></h2>
+    </div>
+    <div>
+      <p>United Fast Food & BBQ is a local restaurant in Liaquatabad, Karachi. The supplied menu includes pizza, burgers, BBQ, biryani, broast, rolls, sandwiches, pasta, fries and beverages.</p>
+      <div class="service-grid">
+        <div><span>01</span><b>Dine-in</b></div>
+        <div><span>02</span><b>Takeout</b></div>
+        <div><span>03</span><b>Delivery</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="popular" class="section light">
+  <div class="center">
+    <div class="section-label">02 / POPULAR PICKS</div>
+    <h2>Match the food with the <i>picture.</i></h2>
+    <p>Each card below uses a picture that matches the named food category. These are illustrative images, not photos of United Fast Food & BBQ.</p>
+  </div>
+  <div class="food-grid">
+    <article class="food-card">
+      <img  src="images/pizza.svg"  alt="Pizza">
+      <div><span>Pizza</span><h3>Pizza Flavours</h3><p>Chicken Tikka, Chicken Fajita, Chicken Supreme and more.</p></div>
+    </article>
+    <article class="food-card">
+      <img  src="images/burger.svg"  alt="Chicken burger">
+      <div><span>Burgers</span><h3>Zinger Burger</h3><p>Also available: cheese, beef, chicken and BBQ burger options.</p></div>
+    </article>
+    <article class="food-card">
+      <img  src="images/chicken-tikka.svg"  alt="Chicken tikka">
+      <div><span>BBQ</span><h3>Chicken Tikka</h3><p>Leg and chest options are listed in the supplied menu.</p></div>
+    </article>
+    <article class="food-card">
+      <img  src="images/biryani.svg"  alt="Pakistani chicken biryani">
+      <div><span>Rice & Biryani</span><h3>Chicken Biryani</h3><p>Single, double and 1 kg options are listed.</p></div>
+    </article>
+    <article class="food-card">
+      <img  src="images/kebab.svg"  alt="Seekh kebab">
+      <div><span>BBQ</span><h3>Seekh Kebab</h3><p>Full and half plate options are listed.</p></div>
+    </article>
+    <article class="food-card">
+      <img  src="images/fries.svg"  alt="French fries">
+      <div><span>Sides</span><h3>French Fries</h3><p>A simple side from the supplied menu.</p></div>
+    </article>
+  </div>
+</section>
+
+<section id="menu" class="section menu-section">
+  <div class="center">
+    <div class="section-label">03 / MENU</div>
+    <h2>Choose your <i>favourite.</i></h2>
+    <p>Prices are based only on the menu information you supplied. Repeated or unreadable OCR figures are not guessed.</p>
+  </div>
+
+  <div class="tabs" role="tablist" aria-label="Menu categories">
+    <button class="active" data-x="pizza">Pizza</button>
+    <button data-x="burgers">Burgers</button>
+    <button data-x="bbq">BBQ</button>
+    <button data-x="biryani">Biryani</button>
+    <button data-x="broast">Broast</button>
+    <button data-x="rolls">Rolls</button>
+    <button data-x="sandwich">Sandwiches</button>
+    <button data-x="sides">Pasta & Sides</button>
+    <button data-x="drinks">Drinks</button>
+  </div>
+
+  <div class="panel active" data-y="pizza">
+    <h3>Pizza Flavours <small>Small / Regular / Large</small></h3>
+    <div class="items">
+      <div><span>Chicken Tikka</span><b>350 / 600 / 900</b></div>
+      <div><span>Chicken Fajita</span><b>350 / 600 / 900</b></div>
+      <div><span>Chicken Supreme</span><b>350 / 600 / 900</b></div>
+      <div><span>Westside Garlic</span><b>350 / 600 / 900</b></div>
+      <div><span>Chicken Afghani Tikka</span><b>350 / 600 / 900</b></div>
+      <div><span>Chicken Bar BQ</span><b>350 / 600 / 900</b></div>
+      <div><span>Chicken Shawarma</span><b>350 / 600 / 900</b></div>
+      <div><span>Chicken Malai Boti</span><b>400 / 700 / 1000</b></div>
+      <div><span>Chicken Arabic Green</span><b>400 / 700 / 1000</b></div>
+      <div><span>Chicken Pepperoni</span><b>400 / 700 / 1000</b></div>
+      <div><span>Chicken Phantom</span><b>400 / 700 / 1000</b></div>
+      <div><span>Seekh Kebab</span><b>400 / 700 / 1000</b></div>
+      <div><span>Chicken Mughlai</span><b>400 / 700 / 1000</b></div>
+      <div><span>Cheese Lover</span><b>400 / 700 / 1000</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/pizza.svg"  alt="Pizza"></div>
+  </div>
+
+  <div class="panel" data-y="burgers">
+    <h3>Burgers</h3>
+    <div class="items">
+      <div><span>Zinger Burger</span><b>Rs. 300</b></div><div><span>Zinger Cheese Burger</span><b>Rs. 340</b></div>
+      <div><span>Beef Burger</span><b>Rs. 190</b></div><div><span>Beef Cheese Burger</span><b>Rs. 230</b></div>
+      <div><span>Chicken Burger</span><b>Rs. 200</b></div><div><span>Chicken Cheese Burger</span><b>Rs. 240</b></div>
+      <div><span>Bar BQ Beef Burger</span><b>Rs. 240</b></div><div><span>Bar BQ Beef Cheese Burger</span><b>Rs. 280</b></div>
+      <div><span>Bar BQ Chicken Burger</span><b>Rs. 260</b></div><div><span>Bar BQ Chicken Cheese Burger</span><b>Rs. 300</b></div>
+      <div><span>Bar BQ Crispy Burger</span><b>Rs. 340</b></div><div><span>Bar BQ Crispy Cheese Burger</span><b>Rs. 380</b></div>
+      <div><span>Mexican Crispy Burger</span><b>Rs. 320</b></div><div><span>Mexican Crispy Cheese Burger</span><b>Rs. 360</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/burger.svg"  alt="Chicken burger"></div>
+  </div>
+
+  <div class="panel" data-y="bbq">
+    <h3>BBQ & Grilled</h3>
+    <div class="items">
+      <div><span>Grilled Charga — Full</span><b>Rs. 1100</b></div><div><span>Grilled Charga — Half</span><b>Rs. 550</b></div>
+      <div><span>Chicken Tikka — Leg</span><b>Rs. 240</b></div><div><span>Chicken Tikka — Chest</span><b>Rs. 260</b></div>
+      <div><span>Beef Boti — Full Plate</span><b>Rs. 300</b></div><div><span>Beef Boti — Half Plate</span><b>Rs. 150</b></div>
+      <div><span>Seekh Kebab — Full Plate</span><b>Rs. 270</b></div><div><span>Seekh Kebab — Half Plate</span><b>Rs. 140</b></div>
+      <div><span>Chicken Boti — Full Plate</span><b>Rs. 320</b></div><div><span>Chicken Boti — Half Plate</span><b>Rs. 160</b></div>
+      <div><span>Chicken Malai Boti — Full Plate</span><b>Rs. 370</b></div><div><span>Chicken Malai Boti — Half Plate</span><b>Rs. 190</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/chicken-tikka.svg"  alt="Chicken tikka"></div>
+  </div>
+
+  <div class="panel" data-y="biryani">
+    <h3>Biryani</h3>
+    <div class="items">
+      <div><span>Chicken Biryani — Single</span><b>Rs. 170</b></div>
+      <div><span>Chicken Biryani — Double</span><b>Rs. 300</b></div>
+      <div><span>Plain Biryani</span><b>Rs. 100</b></div>
+      <div><span>Chicken Biryani — 1 Kg</span><b>Rs. 500</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/biryani.svg"  alt="Pakistani chicken biryani"></div>
+  </div>
+
+  <div class="panel" data-y="broast">
+    <h3>Broast</h3>
+    <div class="items">
+      <div><span>Full Broast</span><b>Rs. 1200</b></div><div><span>Half Broast</span><b>Rs. 600</b></div>
+      <div><span>Qtr Broast — Leg</span><b>Rs. 290</b></div><div><span>Qtr Broast — Chest</span><b>Rs. 310</b></div>
+      <div><span>Chatpata Broast — Leg</span><b>Rs. 310</b></div><div><span>Chatpata Broast — Chest</span><b>Rs. 330</b></div>
+      <div><span>Crispy Broast</span><b>Rs. 340</b></div><div><span>Nuggets</span><b>Rs. 340</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/chicken-tikka.svg"  alt="Chicken fast food"></div>
+  </div>
+
+  <div class="panel" data-y="rolls">
+    <h3>Rolls</h3>
+    <div class="items">
+      <div><span>Boti Roll</span><b>Rs. 130</b></div><div><span>Kebab Roll</span><b>Rs. 120</b></div>
+      <div><span>Chicken Roll</span><b>Rs. 140</b></div><div><span>Chicken Mayo</span><b>Rs. 180</b></div>
+      <div><span>Beef Mayo</span><b>Rs. 180</b></div><div><span>Kabab Cheese</span><b>Rs. 180</b></div>
+      <div><span>Crispy Roll</span><b>Rs. 280</b></div><div><span>Crispy Cheese Roll</span><b>Rs. 300</b></div>
+      <div><span>Malai Mayo Roll</span><b>Rs. 210</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/kebab.svg"  alt="Seekh kebab"></div>
+  </div>
+
+  <div class="panel" data-y="sandwich">
+    <h3>Sandwiches</h3>
+    <div class="items">
+      <div><span>Club Sandwich</span><b>Rs. 240</b></div><div><span>Club Cheese Sandwich</span><b>Rs. 280</b></div>
+      <div><span>Chicken Sandwich</span><b>Rs. 200</b></div><div><span>Chicken Cheese Sandwich</span><b>Rs. 240</b></div>
+      <div><span>Chicken Malai Sandwich</span><b>Rs. 300</b></div><div><span>Bar BQ Sandwich</span><b>Rs. 300</b></div>
+      <div><span>Bar BQ Cheese Sandwich</span><b>Rs. 340</b></div><div><span>Zinger Club Sandwich</span><b>Rs. 390</b></div>
+      <div><span>Zinger Club Cheese Sandwich</span><b>Rs. 450</b></div><div><span>Mayo Garlic Cheese</span><b>Rs. 220</b></div>
+      <div><span>Cream Cheese Mayo</span><b>Rs. 240</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/sandwich.svg"  alt="Chicken sandwich style food"></div>
+  </div>
+
+  <div class="panel" data-y="sides">
+    <h3>Pasta & Sides</h3>
+    <div class="items">
+      <div><span>Pasta — Large</span><b>Rs. 400</b></div><div><span>Pizza Fries — Regular</span><b>Rs. 350</b></div>
+      <div><span>Pizza Fries — Large</span><b>Rs. 600</b></div><div><span>Chipotle Fries</span><b>Ask current price</b></div>
+      <div><span>Chicken Tikka Fries</span><b>Ask current price</b></div><div><span>Chicken Bar BQ Fries</span><b>Ask current price</b></div>
+      <div><span>French Fries</span><b>Rs. 100</b></div><div><span>Cheese</span><b>Rs. 50</b></div>
+      <div><span>Bun</span><b>Rs. 30</b></div><div><span>Raita</span><b>Rs. 40</b></div>
+      <div><span>Coleslaw</span><b>Rs. 40</b></div><div><span>Paratha</span><b>Rs. 70</b></div><div><span>Chapati</span><b>Rs. 10</b></div>
+    </div>
+    <div class="menu-image"><img  src="images/fries.svg"  alt="French fries"></div>
+  </div>
+
+  <div class="panel" data-y="drinks">
+    <h3>Beverages</h3>
+    <div class="items">
+      <div><span>Cold Drink</span><b>Rs. 40</b></div><div><span>Sting Drink</span><b>Rs. 50</b></div>
+      <div><span>Mineral Water — Small</span><b>Rs. 40</b></div><div><span>Mineral Water — Large</span><b>Rs. 70</b></div>
+    </div>
+  </div>
+  <p class="note">The supplied menu contained repeated versions and some unreadable OCR figures. Those figures have not been guessed.</p>
+</section>
+
+<section id="deals" class="section light">
+  <div class="center">
+    <div class="section-label">04 / DEALS & PLATTERS</div>
+    <h2>Deals that match the <i>menu.</i></h2>
+    <p>Only clearly readable offers from the supplied menu are shown with a price. Unclear combinations are marked for confirmation.</p>
+  </div>
+  <div class="deal-grid">
+    <article class="deal-card">
+      <img  src="images/kebab.svg"  alt="Seekh kebab for BBQ platter">
+      <div><span>BBQ PLATTER WITH RICE</span><h3>BBQ Platter with Rice</h3><p>1 Seekh Kebab • 1 Seekh Reshmi • 1 Seekh Cream • 1 Leg Tikka</p><strong>Rs. 1,400</strong></div>
+    </article>
+    <article class="deal-card">
+      <img  src="images/bbq.svg"  alt="Grilled chicken tikka">
+      <div><span>GRILLED CHARGA PLATTER</span><h3>Grilled Charga Platter</h3><p>Grilled chicken / chargha offer shown in the supplied menu.</p><strong>Rs. 1,900</strong></div>
+    </article>
+    <article class="deal-card">
+      <img  src="images/pizza.svg"  alt="Pizza">
+      <div><span>UNITED SPECIAL PIZZA OFFER</span><h3>United Special Pizza Discount Offer</h3><p>The supplied menu shows this offer at the stated price; the exact deal combination should be confirmed.</p><strong>Rs. 3,500</strong></div>
+    </article>
+    <article class="deal-card">
+      <img  src="images/pizza.svg"  alt="Pizza deal">
+      <div><span>PIZZA DEAL</span><h3>Pizza Deal</h3><p>The supplied menu clearly shows a Pizza Deal at this amount; the exact combination is not fully readable.</p><strong>Rs. 3,200</strong></div>
+    </article>
+    <article class="deal-card">
+      <img  src="images/biryani.svg"  alt="Pakistani biryani">
+      <div><span>CHARGA WITH RICE</span><h3>Charga with Rice</h3><p>Full and half options are shown in the supplied menu. The OCR price is unclear.</p><strong>Confirm current price</strong></div>
+    </article>
+    <article class="deal-card">
+      <img  src="images/pizza.svg"  alt="Pizza">
+      <div><span>PIZZA FRIES</span><h3>Pizza Fries Deals</h3><p>Several Pizza Fries deal combinations appear in the supplied menu; exact OCR figures need confirmation.</p><strong>Confirm current deal</strong></div>
+    </article>
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <div class="center">
+    <div class="section-label">05 / GALLERY</div>
+    <h2>Pakistani food, <i>properly matched.</i></h2>
+    <p>Illustrative food photography is used. Replace these with the restaurant's own photos before the final client handover for the most authentic result.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure><img  src="images/biryani.svg"  alt="Pakistani biryani"><figcaption>Biryani</figcaption></figure>
+    <figure><img  src="images/chicken-tikka.svg"  alt="Chicken tikka"><figcaption>Chicken Tikka</figcaption></figure>
+    <figure><img  src="images/kebab.svg"  alt="Seekh kebab"><figcaption>Seekh Kebab</figcaption></figure>
+    <figure><img  src="images/pizza.svg"  alt="Pizza"><figcaption>Pizza</figcaption></figure>
+    <figure><img  src="images/burger.svg"  alt="Chicken burger"><figcaption>Burgers</figcaption></figure>
+    <figure><img  src="images/fries.svg"  alt="French fries"><figcaption>French Fries</figcaption></figure>
+  </div>
+</section>
+
+<section id="location" class="section location-section">
+  <div class="location-grid">
+    <div>
+      <div class="section-label">06 / FIND US</div>
+      <p class="eyebrow dark-eyebrow">LIAQUATABAD, KARACHI</p>
+      <h2>Come by and <i>grab a bite.</i></h2>
+      <p>W25V+PFV, Sir Shah Suleman Rd, Liaquatabad, Karachi, Sindh, Block 4 Liaquatabad Town, Pakistan</p>
+      <div class="location-actions">
+        <a class="btn dark" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=W25V%2BPFV%2C%20Sir%20Shah%20Suleman%20Rd%2C%20Liaquatabad%2C%20Karachi">Get Directions</a>
+        <a class="btn dark" href="tel:+923066254999">Call Now</a>
+      </div>
+      <p class="contact-detail"><strong>Phone:</strong> +92 306 6254999<br><strong>Hours:</strong> Closes at 12 AM. Opening time not confirmed.</p>
+    </div>
+    <iframe title="United Fast Food & BBQ location map" loading="lazy" src="images/bbq.svg"></iframe>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div>
+    <p class="eyebrow">07 / ORDER & CONTACT</p>
+    <h2>Ready for <i>something delicious?</i></h2>
+    <a class="phone" href="tel:+923066254999">+92 306 6254999</a>
+    <p>Dine-in • Takeout • Delivery</p>
+  </div>
+  <form id="form">
+    <h3>Send a WhatsApp message</h3>
+    <input name="name" placeholder="Your name" required>
+    <input name="phone" placeholder="Your phone" required>
+    <textarea name="message" placeholder="What would you like to order?" required></textarea>
+    <button class="btn gold" type="submit">Send via WhatsApp</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <b>UNITED FAST FOOD & BBQ</b>
+  <p>W25V+PFV, Sir Shah Suleman Rd, Liaquatabad, Karachi</p>
+  <a href="tel:+923066254999">+92 306 6254999</a>
+  <p>Dine-in | Takeout | Delivery</p>
+  <small>© <span id="year"></span> United Fast Food & BBQ</small>
+</footer>
+
+<a class="wa" href="https://wa.me/923066254999" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+<script src="script.js"></script>
+</body>
+</html>
